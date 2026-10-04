@@ -1,0 +1,10 @@
+# Live-scan dependencies (--demo mode needs none of these)
+boto3>=1.34
+azure-identity>=1.17
+azure-mgmt-resource>=23.0
+azure-mgmt-storage>=21.0
+azure-mgmt-network>=25.0
+azure-mgmt-keyvault>=10.0
+azure-mgmt-sql>=4.0
+# Optional: needed only for the Conditional Access / MFA check (AZR-005)
+msgraph-sdk>=1.0
