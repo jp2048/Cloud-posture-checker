@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets / local config
+.env
+
+# Generated reports (sample_report.md is committed intentionally)
+report.json
+report.md
+*-report.md
+*-report.json
